@@ -1,0 +1,145 @@
+body {
+    background-image: url('../img/background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+    min-height: 100px;
+}
+
+a {
+    color: rgba(35, 54, 150, 1)!important;
+}
+
+.logo {
+    position: absolute;
+    transform: translate(-150%, 5px);
+    width: 90px;
+    height: 70px;
+}
+.logo [data-color="1"] {
+    fill: rgba(91, 126, 224, 1);
+}
+.logo [data-color="2"] {
+    fill: rgba(35, 54, 150, 1);
+}
+
+.brand {
+    padding: .5rem 1rem 0 1rem;
+    font-weight: bolder;
+    font-size: 45px;
+    color: rgba(35, 54, 150, 1);
+}
+
+.navbar-nav {
+    background-color: white;
+}
+
+.navbar {
+    padding-top: 0!important;
+}
+
+.navbar-nav a.nav-link {
+    transition: .2s ease-in;
+    padding: 3px 10px;
+    font-size: 18px;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+}
+
+.navbar-nav li.active a, .navbar-nav a:hover {
+    background-color: rgba(50, 50, 50, 1);
+    color: white!important;
+}
+
+.main {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    background-color: rgba(205, 205, 205, 0.7)!important;
+}
+
+.title {
+    color: rgba(35, 54, 150, 1);
+}
+
+.main hr {
+    height: 1px;
+    background: rgba(35, 54, 150, 1);
+
+}
+
+.img-row {
+    margin: auto 150px;
+}
+
+.cart-wrp {
+    padding: 10px;
+}
+
+.cart-body {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cart-block {
+    width: 80%;
+    padding: 5px 10px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+    color:rgb(70, 94, 82);
+}
+
+.left-img {
+    width: 100%;
+    object-fit: cover;
+    border: 10px solid rgb(28, 49, 66);
+}
+
+.page {
+    padding: 10px 30px;
+}
+
+.content {
+    font-size: 20px;
+    color: rgb(23, 36, 100);
+}
+
+.contacts-form input, .contacts-form textarea {
+    border-radius: 0;
+    background-color:rgb(28, 49, 66);
+}
+
+.contacts-form button {
+    float: right;
+    background-color:rgb(91, 126, 224);
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+}
+.socials a {
+    color: rgb(28, 49, 66)!important;
+    transition: 0.2s ease-in;
+}
+
+.socials a:hover {
+    color: rgba(35, 54, 150, 1)!important;
+    text-decoration: none;
+}
+.socials a span {
+    padding-left: 10px;
+}
