@@ -62,7 +62,7 @@ a {
 .main {
     padding-top: 25px;
     padding-bottom: 50px;
-    background-color: rgba(205, 205, 205, 0.7)!important;
+    background-color: rgba(225, 225, 225, 0.9)!important;
 }
 
 .title {
@@ -142,4 +142,15 @@ a {
 }
 .socials a span {
     padding-left: 10px;
+}
+
+.brand2 {
+    display: inline-block;
+    font-size: 22px;
+    color:rgb(130, 147, 161);
+    transform: scale(1, 1.5);
+}
+
+.address {
+    color:rgb(130, 147, 161);
 }
